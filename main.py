@@ -18,8 +18,8 @@ dataset = st.container()
 features = st.container()
 model_training = st.container()
 
-file_path = 'F:/Project/Fullstack/Streamlit/SOC Estimation/data/dataset_discharge_clean.csv'
-#file_path = 'D:/Project/Fullstack/Streamlit/SOC Estimation/data/dataset_discharge_clean.csv'
+#file_path = 'F:/Project/Fullstack/Streamlit/SOC Estimation/data/dataset_discharge_clean.csv'
+file_path = 'https://raw.githubusercontent.com/wilywho/State-of-Charge-Estimation-App/master/data/dataset_discharge_clean.csv'
 
 @st.cache_data
 def load_data(file_path):
