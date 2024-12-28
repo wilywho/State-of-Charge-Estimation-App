@@ -58,7 +58,7 @@ class StreamlitCallback(tf.keras.callbacks.Callback):
 with header:
     st.title("Data Science Project")
     st.markdown("##### Laboratory of Energy Mangement Bandung Institute of Technology")
-    st.markdown("###### Research Engineer: Farhan Wily B.Sc.")
+    st.markdown("###### Research Engineer: Farhan Wily S.T.")
     st.header('State of Charge (SOC) Estimation For Lithium-Ion Battery ZTEZXDC48')
 
 with dataset:
