@@ -94,6 +94,15 @@ with dataset:
     st.markdown('##### State of Charge (SOC) Formula')
     st.latex(r'''SOC(t) = SOC(t_0) + \frac{1}{C} \sum_{i=0}^{n} I_i \Delta t''')
     
+    st.markdown("""
+    **Where:**
+    - $SOC(t)$: State of Charge at time **t**
+    - $SOC(t_0)$: Initial State of Charge
+    - $I_i$: Battery current at time step **i** (A)
+    - $\Delta t$: Time interval between measurements (s)
+    - $C$: Battery capacity (Ah)
+    """)
+    
 
 with features:
     st.header("Dataset Features")
